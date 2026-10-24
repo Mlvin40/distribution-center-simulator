@@ -1,0 +1,13 @@
+# Compilaciones y dependencias
+**/target/
+**/node_modules/
+**/dist/
+**/coverage/
+# Entorno y editores
+.idea/
+*.iml
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log

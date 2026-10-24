@@ -1,0 +1,21 @@
+spring:
+  jackson:
+    deserialization:
+      accept-float-as-int: false
+  application:
+    name: redxela-api
+
+# Un segundo real equivale a 60 segundos simulados; cambiar antes de arrancar
+redxela:
+  simulation:
+    time-scale: 60
+    work-seconds-per-unit: 10
+    aisles: 3
+    levels: 2
+    positions-per-level: 5
+    location-capacity: 20
+
+server:
+  error:
+    include-stacktrace: never
+    include-message: never
