@@ -13,7 +13,23 @@ cd redxela-api
 
 En otra terminal:
 
-```bash
+```bashmelvin@mlvin:~/Escritorio/SISTEMAS_OPERATIVOS_2/PROYECTO_FINAL$ git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+        modificados:     README.md
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        .gitignore
+        redxela-api/
+        redxela-client/
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+melvin@mlvin:~/Escritorio/SISTEMAS_OPERATIVOS_2/PROYECTO_FINAL$ 
 cd redxela-client
 npm ci
 npm run dev
